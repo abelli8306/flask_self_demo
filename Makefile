@@ -18,7 +18,7 @@ ifneq ($(CONTAINID), )
 	@docker stop ${CONTAINID}
 	@docker rm ${CONTAINID}
 endif
-	@docker run -idt -p 9090:9090 --name ${PROJECT} ${IMAGEID}
+	@docker run -idt -p 80:80 --name ${PROJECT} ${IMAGEID}
 	@docker logs ${PROJECT} -f
 
 push: docker
