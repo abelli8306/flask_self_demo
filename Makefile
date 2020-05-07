@@ -1,6 +1,6 @@
 PROJECT = flask_self_demo
-RegistryDomain := mirrors.tencent.com
-RegistryNamespace := xiaoboli_personal
+RegistryDomain := ccr.ccs.tencentyun.com
+RegistryNamespace := chaosblade
 IMAGE := ${RegistryDomain}/${RegistryNamespace}/${PROJECT}
 TAG := $(shell git describe --dirty --always --tags | sed 's/-/./g')
 IMAGEID := ${IMAGE}:${TAG}

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c04e02-6704-4526-8e76-9edaa5f39d69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flaskselfdemo.dep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +107,7 @@
       <workItem from="1588759201468" duration="605000" />
       <workItem from="1588759826215" duration="15215000" />
       <workItem from="1588816521980" duration="362000" />
-      <workItem from="1588816901914" duration="1198000" />
+      <workItem from="1588816901914" duration="5217000" />
     </task>
     <task id="LOCAL-00001" summary="add flask_self_demo project">
       <created>1588766495437</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588776809751</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Dockerfile Makefile">
+      <created>1588819764779</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588819764779</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
