@@ -30,4 +30,4 @@ def create_book():
 
 @api.route('/search/<gid>', methods=['GET', 'POST'])
 def search_book(gid):
-    return 'book is ' + gid
+    return json.dumps({"book_id": gid}), 200, {'content-type': 'text/html'}
