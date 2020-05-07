@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c04e02-6704-4526-8e76-9edaa5f39d69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flaskselfdemo.dep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskselfdemo.dep" beforeDir="false" afterPath="$PROJECT_DIR$/flaskselfdemo.dep" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +106,7 @@
       <workItem from="1588759201468" duration="605000" />
       <workItem from="1588759826215" duration="15215000" />
       <workItem from="1588816521980" duration="362000" />
-      <workItem from="1588816901914" duration="5217000" />
+      <workItem from="1588816901914" duration="7717000" />
     </task>
     <task id="LOCAL-00001" summary="add flask_self_demo project">
       <created>1588766495437</created>
@@ -186,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588819764779</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add public Makefile and flaskselfdemo.dep">
+      <created>1588834737441</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588834737441</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +224,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flask_self_demo project" />
     <MESSAGE value="add Dockerfile Makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Dockerfile Makefile" />
+    <MESSAGE value="add public Makefile and flaskselfdemo.dep" />
+    <option name="LAST_COMMIT_MESSAGE" value="add public Makefile and flaskselfdemo.dep" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flask_self_demo$wesey_csig_oss.coverage" NAME="wesey_csig_oss Coverage Results" MODIFIED="1588760206883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

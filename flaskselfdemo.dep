@@ -23,11 +23,11 @@ spec:
           name: web80
         resources:
           limits:
-            cpu: 500m
-            memory: 500M
+            cpu: 300m
+            memory: 300M
           requests:
-            cpu: 200m
-            memory: 200M
+            cpu: 100m
+            memory: 100M
 ---
 
 apiVersion: v1
