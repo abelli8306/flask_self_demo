@@ -134,7 +134,7 @@
       <workItem from="1589296897091" duration="231000" />
       <workItem from="1589297176455" duration="905000" />
       <workItem from="1589442492960" duration="3437000" />
-      <workItem from="1589524461580" duration="936000" />
+      <workItem from="1589524461580" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="add flask_self_demo project">
       <created>1588766495437</created>
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589525170509</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add docker-compose install">
+      <created>1589525422433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589525422433</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
