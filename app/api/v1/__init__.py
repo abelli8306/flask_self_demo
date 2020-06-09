@@ -11,7 +11,7 @@ Change Activity:
 __author__ = 'xiaoboli'
 
 from flask import Blueprint
-from app.api.v1 import user, book
+from app.api.v1 import user, book, FlaskLogin
 
 
 def create_blueprint_v1():
@@ -19,4 +19,5 @@ def create_blueprint_v1():
 
     user.api.register(api_v1, url_prefix='/user')
     book.api.register(api_v1, url_prefix='/book')
+    FlaskLogin.api.register(api_v1)
     return api_v1

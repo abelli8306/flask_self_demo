@@ -7,11 +7,14 @@ Author : xiaoboli
 Change Activity:
 -------------------------------------------------
 """
+from flask_login import LoginManager
 
 __author__ = 'xiaoboli'
 
 from flask import Flask
 
+# 登录cookie插件
+login_manager = LoginManager()
 
 def register_blueprint(app: object) -> object:
     """
@@ -33,4 +36,5 @@ def create_app() -> object:
     app.config.from_object('app.config.setting')
     app.config.from_object('app.config.secure')
     register_blueprint(app)
+    login_manager.init_app(app)
     return app

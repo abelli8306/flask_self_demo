@@ -1,16 +1,20 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+url = "http://pypi.douban.com/simple/"
 verify_ssl = true
 
 [dev-packages]
 
 [packages]
-flask = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
+flask = "*"
 cymysql = "*"
 flask-sqlalchemy = "*"
 requests = "*"
 flask-restful = "*"
+flask-login = "*"
+pandas = "*"
+pyyaml = "*"
+openpyxl = "*"
 
 [requires]
 python_version = "3.7"

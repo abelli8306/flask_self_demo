@@ -1,0 +1,5 @@
+temp/
+log/
+Pipfile
+Pipfile.lock
+test/tmpetc/

@@ -2,3 +2,4 @@ flask
 requests
 flask-restful
 redis
+flask-login

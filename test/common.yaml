@@ -1,0 +1,14 @@
+##通用配置
+region_name: jp
+region: ap-tokyo
+
+vpcid: vpc-oty8gad6
+vpcgw: 9.0.64.14:2379
+
+clustermaster: ap-tokyo-default-1
+clusterslave:  ap-tokyo-default-slave
+
+scflog:
+  secretkey: d2e54bb4e99f11e987985254006c6d2f
+  ulsdestid:  #日志集id
+  destid:  #模调id
