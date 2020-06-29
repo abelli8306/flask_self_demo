@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c04e02-6704-4526-8e76-9edaa5f39d69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/FlaskLogin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/andon_time_cost_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/common.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/f1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/genVpcproxyServerYaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/weseey_cisg_oss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weseey_cisg_oss.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/secure.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/secure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/andon_time_cost_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/andon_time_cost_analysis.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +34,13 @@
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -59,19 +55,7 @@
       <recent name="D:\python_code\weseey_csig_oss\app" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.andon_time_cost_analysis">
+  <component name="RunManager" selected="Python.flask_self_demo">
     <configuration name="andon_time_cost_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="weseey_cisg_oss" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,9 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.flask_self_demo" />
         <item itemvalue="Python.andon_time_cost_analysis" />
         <item itemvalue="Python.genVpcproxyServerYaml" />
-        <item itemvalue="Python.flask_self_demo" />
         <item itemvalue="Python.minimal_flask_RESTful_api" />
       </list>
     </recent_temporary>
@@ -204,7 +188,10 @@
       <workItem from="1590547015651" duration="934000" />
       <workItem from="1591108683970" duration="479000" />
       <workItem from="1591604032311" duration="5238000" />
-      <workItem from="1591684914913" duration="9294000" />
+      <workItem from="1591684914913" duration="11690000" />
+      <workItem from="1592913437178" duration="35000" />
+      <workItem from="1593445342635" duration="713000" />
+      <workItem from="1593446124775" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="add flask_self_demo project">
       <created>1588766495437</created>
@@ -318,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589526124451</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add pandas static">
+      <created>1591695113714</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591695113714</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -339,20 +333,34 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flask_self_demo project" />
     <MESSAGE value="add Dockerfile Makefile" />
     <MESSAGE value="add public Makefile and flaskselfdemo.dep" />
     <MESSAGE value="add docker-compose install" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker-compose install" />
+    <MESSAGE value="add pandas static" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pandas static" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593445432796">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1593445432796" />
+    <state x="423" y="97" key="FileChooserDialogImpl" timestamp="1593446262002">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="423" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593446262002" />
+    <state x="247" y="-1" key="SettingsEditor" timestamp="1593446270957">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="247" y="-1" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1593446270957" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,10 +374,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flask_self_demo$flask_self_demo.coverage" NAME="flask_self_demo Coverage Results" MODIFIED="1593446816246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/weseey_csig_oss$wesey_csig_oss.coverage" NAME="wesey_csig_oss Coverage Results" MODIFIED="1581664459773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_self_demo$andon_time_cost_analysis.coverage" NAME="andon_time_cost_analysis Coverage Results" MODIFIED="1591696580889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/flask_self_demo$genVpcproxyServerYaml.coverage" NAME="genVpcproxyServerYaml Coverage Results" MODIFIED="1591606837942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/flask_self_demo$wesey_csig_oss.coverage" NAME="wesey_csig_oss Coverage Results" MODIFIED="1588760206883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/flask_self_demo$andon_time_cost_analysis.coverage" NAME="andon_time_cost_analysis Coverage Results" MODIFIED="1591694303460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/weseey_csig_oss$wesey_csig_oss.coverage" NAME="wesey_csig_oss Coverage Results" MODIFIED="1581664459773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/flask_self_demo$flask_self_demo.coverage" NAME="flask_self_demo Coverage Results" MODIFIED="1591606745390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

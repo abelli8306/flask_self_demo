@@ -32,9 +32,27 @@ time_cost = excel_read[
     })
 
 print(time_cost)
+#对现有的excel 追加表格
 book = load_workbook(read_excel_file)
 
 with pd.ExcelWriter(write_excel_file) as excel_writer:
     excel_writer.book = book
     time_cost.to_excel(excel_writer, sheet_name="time_cost")
     excel_writer.save()
+
+
+# # merge 测试
+# left = pd.DataFrame({
+#     'id': [1, 2, 3, 4, 5],
+#     'Name': ['Alex', 'Amy', 'Allen', 'Alice', 'Ayoung'],
+#     'subject_id': ['sub1', 'sub2', 'sub4', 'sub6', 'sub5']})
+# right = pd.DataFrame(
+#     {'id': [1, 2, 3, 4, 5],
+#      'Name': ['Billy', 'Brian', 'Bran', 'Bryce', 'Betty'],
+#      'subject_id': ['sub2', 'sub4', 'sub3', 'sub6', 'sub5']})
+# print(left)
+# print("========================================")
+# print(right)
+#
+# rs = pd.merge(left, right, on=['id', 'subject_id'])
+# print(rs)
