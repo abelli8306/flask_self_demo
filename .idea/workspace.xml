@@ -25,8 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c04e02-6704-4526-8e76-9edaa5f39d69" name="Default Changelist" comment="add pandas static">
-      <change afterPath="$PROJECT_DIR$/app/config/secure.py" afterDir="false" />
+    <list default="true" id="d0c04e02-6704-4526-8e76-9edaa5f39d69" name="Default Changelist" comment="exclude  secure.py">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -226,7 +225,7 @@
       <workItem from="1607571794711" duration="1809000" />
       <workItem from="1608118059920" duration="233000" />
       <workItem from="1609816933571" duration="20000" />
-      <workItem from="1613976067229" duration="2975000" />
+      <workItem from="1613976067229" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="add flask_self_demo project">
       <created>1588766495437</created>
@@ -368,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613978139019</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="exclude  secure.py">
+      <created>1613979085259</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613979085259</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +447,8 @@
     <MESSAGE value="add public Makefile and flaskselfdemo.dep" />
     <MESSAGE value="add docker-compose install" />
     <MESSAGE value="add pandas static" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pandas static" />
+    <MESSAGE value="exclude  secure.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="exclude  secure.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613976142686">
@@ -472,10 +479,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="364" y="83" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1608118069876" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1613978717464">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1613979138116">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613978717464" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613979138116" />
     <state x="342" y="73" width="594" height="532" key="find.popup" timestamp="1613977587575">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
