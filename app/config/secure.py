@@ -10,4 +10,4 @@ Change Activity:
 
 __author__ = 'xiaoboli'
 
-SECRET_KEY = 'root:muzi120039@127.0.0.1:3306/fisher'
+SECRET_KEY = 'root:a123456789@127.0.0.1:3306/fisher'
