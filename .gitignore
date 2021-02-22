@@ -3,3 +3,4 @@ log/
 Pipfile
 Pipfile.lock
 test/tmpetc/
+config/secure.py
