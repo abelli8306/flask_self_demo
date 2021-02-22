@@ -1,0 +1,9 @@
+temp/
+log/
+__pycache__/
+.idea/
+test/
+test/tmpetc/
+Pipfile
+Pipfile.lock
+app/config/secure.py

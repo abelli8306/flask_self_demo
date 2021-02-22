@@ -1,0 +1,69 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flaskselfdemo
+  namespace: default
+  labels:
+    app: flaskselfdemo
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: flaskselfdemo
+  template:
+    metadata:
+      labels:
+        app: flaskselfdemo
+    spec:
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 50
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - flaskselfdemo
+              topologyKey: kubernetes.io/hostname
+      containers:
+      - name: flaskselfdemo
+        image: ccr.ccs.tencentyun.com/chaosblade/flask_self_demo:v1.0.6
+        ports:
+        - containerPort: 80
+          name: web80
+        resources:
+          limits:
+            cpu: 300m
+            memory: 300M
+          requests:
+            cpu: 100m
+            memory: 100M
+        volumeMounts:
+        - mountPath: /config
+          name: config
+      volumes:
+      - hostPath:
+          path: /data/config
+          type: DirectoryOrCreate
+        name: config
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: flaskselfdemo-service
+  namespace: default
+  labels:
+    app: flaskselfdemo
+    app: flaskselfdemo-service
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    # nodePort: 30080
+    targetPort: web80
+    protocol: TCP
+  selector:
+    app: flaskselfdemo
