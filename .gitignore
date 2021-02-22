@@ -6,4 +6,3 @@ test/
 test/tmpetc/
 Pipfile
 Pipfile.lock
-app/config/secure.py
