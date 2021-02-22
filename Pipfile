@@ -1,1 +1,0 @@
-[[source]]name = "pypi"url = "https://mirrors.aliyun.com/pypi/simple/"verify_ssl = true[dev-packages][packages]flask = "*"cymysql = "*"flask-sqlalchemy = "*"requests = "*"flask-restful = "*"flask-login = "*"pandas = "*"pyyaml = "*"openpyxl = "*"redis = "*"[requires]python_version = "3.7"

@@ -1,8 +1,0 @@
-temp/
-log/
-__pycache__
-.idea
-test/tmpetc/
-Pipfile
-Pipfile.lock
-secure.py
