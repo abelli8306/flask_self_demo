@@ -1,8 +1,8 @@
 temp/
 log/
+__pycache__
+.idea
+test/tmpetc/
 Pipfile
 Pipfile.lock
-test/tmpetc/
-app/config/secure.py
-__pycache__/
-.idea/
+secure.py
