@@ -1,6 +1,6 @@
 PROJECT = flask_self_demo
 RegistryDomain := ccr.ccs.tencentyun.com
-RegistryNamespace := chaosblade
+RegistryNamespace := tke-chaos
 IMAGE := ${RegistryDomain}/${RegistryNamespace}/${PROJECT}
 TAG := $(shell git describe --dirty --always --tags | sed 's/-/./g')
 IMAGEID := ${IMAGE}:${TAG}
