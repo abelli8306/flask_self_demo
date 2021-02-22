@@ -17,10 +17,9 @@ spec:
     spec:
       containers:
       - name: flaskselfdemo
-        image: ccr.ccs.tencentyun.com/tke-chaos/flask_self_demo:1.0.2
+        image: ccr.ccs.tencentyun.com/tke-chaos/flask_self_demo:1.0.3
         ports:
         - containerPort: 80
-          name: web80
         resources:
           limits:
             cpu: 300m
@@ -42,8 +41,28 @@ spec:
   type: NodePort
   ports:
   - port: 80
-    # nodePort: 30080
-    targetPort: web80
+    nodePort: 31918
+    targetPort: 80
     protocol: TCP
   selector:
     app: flaskselfdemo
+---
+
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: flaskselfdemo-ingress
+  annotations:
+    description: flaskselfdemo-ingress
+    ingress.cloud.tencent.com/direct-access: "false"
+    kubernetes.io/ingress.class: qcloud
+spec:
+  rules:
+  - host: flask.self.demo
+    http:
+      paths:
+      - backend:
+          serviceName: flaskselfdemo-service
+          servicePort: 80
+        path: /v1
+        pathType: ImplementationSpecific
