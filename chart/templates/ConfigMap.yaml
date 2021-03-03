@@ -5,10 +5,14 @@ data:
   setting.py: |-
     JSON_AS_ASCII = False
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-
     DEBUG = True
     HOST = '0.0.0.0'
     PORT = '80'
+    {{- with .Values.redis }}
+    REDISHOST = {{ .redisHost | quote}}
+    REDISPORT = {{ .redisPort }}
+    REDISPASSWORD = {{ .redisPassword | quote }}
+    {{- end }}
 kind: ConfigMap
 metadata:
   {{- with .Values.podAnnotations }}

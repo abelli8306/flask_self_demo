@@ -46,6 +46,10 @@ releases:
           requests:
             cpu: 200m
             memory: 128Mi
+        redis:
+          redisHost: "redis.local"
+          redisPort: 6379
+          redisPassword: "aaaaaaaa"
     wait: true
   - name: redis
     namespace: default
