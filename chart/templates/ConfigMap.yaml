@@ -1,0 +1,20 @@
+apiVersion: v1
+data:
+  secure.py: |-
+    SECRET_KEY = 'root:a123456789@127.0.0.1:3306/fisher'
+  setting.py: |-
+    JSON_AS_ASCII = False
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+    DEBUG = True
+    HOST = '0.0.0.0'
+    PORT = '80'
+kind: ConfigMap
+metadata:
+  {{- with .Values.podAnnotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  labels:
+    {{- include "flaskselfdemo.labels" . | nindent 4 }} 
+  name: {{ include "flaskselfdemo.fullname" . }}

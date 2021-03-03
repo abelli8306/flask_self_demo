@@ -1,0 +1,72 @@
+# Chart repositories used from within this state file
+#
+# Use `helm-s3` and `helm-git` and whatever Helm Downloader plugins
+# to use repositories other than the official repository or one backend by chartmuseum.
+
+# 测试hemlfile.yaml 是否符合预期
+# PRODUCT=test helmfile -f ./helmfile.yaml template  |less
+
+# An expected use-case of apply is to schedule it to run periodically,
+# so that you can auto-fix skews between the desired and the current state of your apps running on Kubernetes clusters.
+# PRODUCT=test helmfile -i -f ./helmfile.yaml apply
+
+repositories:
+  # To use official "stable" charts a.k.a https://github.com/helm/charts/tree/master/stable
+  - name: aliyun
+    url: https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
+  - name: tkemarket
+    url: https://market-tke.tencentcloudcr.com/chartrepo/opensource-stable
+
+helmDefaults:
+  # limit the maximum number of revisions saved per release. Use 0 for no limit. (default 10)
+  historyMax: 10
+  # when using helm 3.2+, automatically create release namespaces if they do not exist (default true)
+  createNamespace: true
+  # time in seconds to wait for any individual Kubernetes operation (like Jobs for hooks, and waits on pod/pvc/svc/deployment readiness) (default 300)
+  timeout: 600
+
+# Path to alternative helm binary (--helm-binary)
+helmBinary: /usr/local/bin/helm
+
+commonLabels:
+  Product: {{ requiredEnv "PRODUCT" }}
+
+# The desired states of Helm releases.
+releases:
+  # name of this release
+  - name: flaskweb
+    # target namespace
+    namespace: default
+    # the chart being installed to create this release, referenced by relative path to local helmfile
+    chart: ./chart
+    values:
+      - "./values1.yaml"   # Values file (relative path to manifest)
+      - replicaCount: 1
+        resources:
+          requests:
+            cpu: 200m
+            memory: 128Mi
+    wait: true
+  - name: redis
+    namespace: default
+    chart: tkemarket/redis
+    wait: true
+
+
+#releases:
+#  {{- /* range $_, $name := .Environment.Values.addons }}
+#  - name: {{ requiredEnv "PRODUCT" }}-{{ $name }}
+#    namespace: {{ requiredEnv "PRODUCT" }}
+#    chart: {{ $name }}
+#    values:
+#      - ./{{ $name }}/values/values.yaml
+#  {{ end */ -}}
+#
+#environments:
+#  default:
+#    values:
+#      - addons:
+#          - network-apiserver
+#          - network-controller
+#          - resource-apiserver
+#          - resource-controller
