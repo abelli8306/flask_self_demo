@@ -11,6 +11,7 @@ import json
 
 from flask import Blueprint
 from app.libs.redprint import Redprint
+from flask import current_app
 
 __author__ = 'xiaoboli'
 
@@ -30,4 +31,5 @@ def create_book():
 
 @api.route('/search/<gid>', methods=['GET', 'POST'])
 def search_book(gid):
+    current_app.logger.info('Info message: {"book_id": ' + gid + '}')
     return json.dumps({"book_id": gid}), 200, {'content-type': 'text/html'}
