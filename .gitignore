@@ -6,3 +6,4 @@ test/
 test/tmpetc/
 Pipfile
 Pipfile.lock
+.vscode/
