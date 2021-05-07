@@ -7,3 +7,5 @@ test/tmpetc/
 Pipfile
 Pipfile.lock
 .vscode/
+.virualenvs
+.venv
