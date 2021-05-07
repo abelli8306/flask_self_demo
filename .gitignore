@@ -9,3 +9,5 @@ Pipfile.lock
 .vscode/
 .virualenvs
 .venv
+__init__.pyc
+nohup.out
