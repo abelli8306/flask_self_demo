@@ -3,7 +3,7 @@
 export WORKDIR=$( cd ` dirname $0 ` && pwd )
 
 cd "$WORKDIR/../" || exit 1
-# source ./init.sh
+source ./init.sh
 
 # Global definitions
 PRO_BIN="flask_app.py"
