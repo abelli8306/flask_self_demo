@@ -1,0 +1,258 @@
+[2021-04-08 13:55:59,533] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-08 13:56:00,666] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-08 13:56:00,683] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-08 13:56:00,719] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-08 13:56:16,079] INFO in app.app|book|34: Info message: {"book_id": asdf}
+[2021-04-08 13:56:16,080] INFO in werkzeug|_internal|113: 127.0.0.1 - - [08/Apr/2021 13:56:16] "[37mGET /v1/book/search/asdf HTTP/1.1[0m" 200 -
+[2021-04-08 13:56:20,941] INFO in app.app|book|34: Info message: {"book_id": asdf}
+[2021-04-08 13:56:20,942] INFO in werkzeug|_internal|113: 127.0.0.1 - - [08/Apr/2021 13:56:20] "[37mGET /v1/book/search/asdf HTTP/1.1[0m" 200 -
+[2021-04-08 19:58:48,600] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-08 19:58:49,779] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-08 19:58:49,798] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-08 19:58:50,702] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:04:16,357] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:04:17,293] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:04:17,303] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:04:18,273] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:11:07,531] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:11:08,501] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:11:08,510] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:11:09,377] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:12:01,593] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:12:02,604] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:12:02,612] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:12:03,482] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:13:11,038] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:13:11,984] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:13:11,994] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:13:12,856] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:13:21,458] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:21] "[35m[1mGET /v1/user/hello HTTP/1.1[0m" 500 -
+[2021-04-15 15:13:21,524] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:21] "[37mGET /v1/user/hello?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:21,530] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:21] "[37mGET /v1/user/hello?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:21,531] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:21] "[37mGET /v1/user/hello?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:21,740] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:21] "[37mGET /v1/user/hello?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:21,781] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:21] "[37mGET /v1/user/hello?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:22,331] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:22] "[37mGET /v1/user/hello?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:27,417] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:13:27,417] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:27] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:27,582] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-04-15 15:13:29,318] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:13:29,318] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:29] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:29,572] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:13:29,572] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:29] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:29,755] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:13:29,756] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:29] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:29,939] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:13:29,940] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:29] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:30,127] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:13:30,128] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:30] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:13:51,171] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:13:51,171] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:13:51] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:14:00,449] INFO in app.app|book|34: Info message: {"book_id": aaaa}
+[2021-04-15 15:14:00,449] INFO in werkzeug|_internal|113: 127.0.0.1 - - [15/Apr/2021 15:14:00] "[37mGET /v1/book/search/aaaa HTTP/1.1[0m" 200 -
+[2021-04-15 15:14:42,246] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:14:43,285] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:14:43,293] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:14:44,313] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:14:51,802] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:14:52,789] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:14:52,797] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:14:53,715] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:16:27,316] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:16:28,344] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:16:28,352] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:16:29,217] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-04-15 15:16:33,472] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-04-15 15:16:34,435] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-04-15 15:16:34,443] INFO in werkzeug|_internal|113:  * Debugger PIN: 299-340-177
+[2021-04-15 15:16:35,309] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-02 00:27:16,688] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-02 00:27:16,690] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-02 00:27:17,101] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-02 00:27:17,109] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-02 00:27:40,262] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-02 00:27:40,263] INFO in werkzeug|_internal|113: 127.0.0.1 - - [02/May/2021 00:27:40] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-02 00:27:40,557] INFO in werkzeug|_internal|113: 127.0.0.1 - - [02/May/2021 00:27:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-05-02 00:53:58,888] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-02 00:53:58,890] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-02 00:53:59,251] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-02 00:53:59,256] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-02 21:13:31,016] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-02 21:13:31,017] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-02 21:13:31,353] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-02 21:13:31,367] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-02 21:33:15,320] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-02 21:33:15,322] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-02 21:33:16,135] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-02 21:33:16,144] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 00:14:03,160] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 00:14:03,162] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 00:14:03,344] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 00:14:03,350] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 00:17:35,653] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 00:17:35,655] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 00:17:35,836] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 00:17:35,842] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 00:19:56,029] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 00:19:56,031] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 00:19:56,623] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 00:19:56,629] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 00:20:57,029] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 00:20:57,030] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 00:20:57,183] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 00:20:57,186] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 00:21:17,576] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-03 00:21:17,576] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:21:17] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-03 00:21:17,900] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:21:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-05-03 00:21:25,612] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:21:25,612] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:21:25] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:22:30,734] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 00:22:30,734] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 00:22:30,891] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 00:22:30,895] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 00:22:40,888] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:22:40,889] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:22:40] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:22:41,324] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:22:41,324] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:22:41] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:22:41,514] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:22:41,514] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:22:41] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:22:41,683] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:22:41,684] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:22:41] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:22:41,863] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:22:41,863] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:22:41] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:23:49,480] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 00:23:49,481] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 00:23:49,634] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 00:23:49,637] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 00:23:52,859] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:23:52,860] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:23:52] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:24:04,949] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:24:04,949] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:24:04] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:24:35,107] INFO in app.app|book|34: Info message: {"book_id": 123123jlajsldjflsdajflsajdlf}
+[2021-05-03 00:24:35,107] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 00:24:35] "[37mGET /v1/book/search/123123jlajsldjflsdajflsajdlf HTTP/1.1[0m" 200 -
+[2021-05-03 00:30:00,819] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 00:30:00,821] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 10:23:48,179] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 10:23:48,181] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 10:23:48,719] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 10:23:48,731] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 11:26:16,736] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 11:26:16,738] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 11:26:17,338] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 11:26:17,345] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 11:27:13,941] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 11:27:13,943] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 11:27:14,543] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 11:27:14,549] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 11:27:35,618] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-03 11:27:35,621] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 11:27:35] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-03 11:27:35,931] INFO in werkzeug|_internal|113: 127.0.0.1 - - [03/May/2021 11:27:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-05-03 11:34:01,537] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 11:34:01,540] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 11:34:02,132] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 11:34:02,138] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-03 11:41:56,062] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-03 11:41:56,064] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-03 11:41:56,642] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-03 11:41:56,648] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-06 19:55:29,855] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-06 19:55:29,858] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-06 19:55:30,483] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-06 19:55:30,492] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-06 19:55:42,024] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-06 19:55:42,026] INFO in werkzeug|_internal|113: 127.0.0.1 - - [06/May/2021 19:55:42] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-06 19:55:42,338] INFO in werkzeug|_internal|113: 127.0.0.1 - - [06/May/2021 19:55:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-05-07 10:49:18,451] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-07 10:49:18,453] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-07 10:49:18,613] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-07 10:49:18,618] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-07 10:49:24,706] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 10:49:24,706] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 10:49:24] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 10:49:25,073] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 10:49:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-05-07 16:40:22,324] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-07 16:40:22,327] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-07 16:40:22,480] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-07 16:40:22,484] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-07 16:41:19,547] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 16:41:19,547] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 16:41:19] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 16:41:21,301] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 16:41:21,301] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 16:41:21] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 16:41:21,458] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 16:41:21,459] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 16:41:21] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 16:41:21,639] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 16:41:21,639] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 16:41:21] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 16:41:21,805] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 16:41:21,806] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 16:41:21] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 16:41:35,840] INFO in app.app|book|34: Info message: {"book_id": bbbb}
+[2021-05-07 16:41:35,841] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 16:41:35] "[37mGET /v1/book/search/bbbb HTTP/1.1[0m" 200 -
+[2021-05-07 16:41:39,558] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 16:41:39,558] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 16:41:39] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:02,898] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-07 17:06:02,898] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-07 17:06:03,078] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-07 17:06:03,081] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-07 17:06:03,202] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 17:06:03,203] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:03] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:45,250] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 17:06:45,250] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:45] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:45,757] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 17:06:45,757] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:45] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:45,945] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 17:06:45,946] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:45] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:46,116] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 17:06:46,117] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:46] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:46,295] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 17:06:46,295] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:46] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:46,814] INFO in app.app|book|34: Info message: {"book_id": ccccccc}
+[2021-05-07 17:06:46,814] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:46] "[37mGET /v1/book/search/ccccccc HTTP/1.1[0m" 200 -
+[2021-05-07 17:06:48,660] INFO in app.app|book|34: Info message: {"book_id": afdsaf}
+[2021-05-07 17:06:48,660] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 17:06:48] "[37mGET /v1/book/search/afdsaf HTTP/1.1[0m" 200 -
+[2021-05-07 17:16:16,743] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-07 17:16:16,743] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-07 17:16:16,893] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-07 17:16:16,897] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-07 18:02:43,181] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-07 18:02:43,183] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-07 18:02:43,343] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-07 18:02:43,346] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-07 18:02:53,087] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 18:02:53,088] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:53] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 18:02:53,378] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-05-07 18:02:55,015] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 18:02:55,016] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:55] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 18:02:55,208] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 18:02:55,208] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:55] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 18:02:55,376] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 18:02:55,376] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:55] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 18:02:55,531] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 18:02:55,532] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:55] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 18:02:55,700] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 18:02:55,700] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:55] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 18:02:59,331] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-07 18:02:59,331] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:02:59] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-07 18:03:01,738] INFO in app.app|book|34: Info message: {"book_id": bbbb}
+[2021-05-07 18:03:01,739] INFO in werkzeug|_internal|113: 127.0.0.1 - - [07/May/2021 18:03:01] "[37mGET /v1/book/search/bbbb HTTP/1.1[0m" 200 -
+[2021-05-08 11:26:57,477] INFO in werkzeug|_internal|113:  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2021-05-08 11:26:57,478] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-08 11:26:57,636] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-08 11:26:57,641] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-08 11:27:01,047] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-08 11:27:01,048] INFO in werkzeug|_internal|113: 127.0.0.1 - - [08/May/2021 11:27:01] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-08 11:27:05,597] INFO in app.app|book|34: Info message: {"book_id": asdfasdf}
+[2021-05-08 11:27:05,598] INFO in werkzeug|_internal|113: 127.0.0.1 - - [08/May/2021 11:27:05] "[37mGET /v1/book/search/asdfasdf HTTP/1.1[0m" 200 -
+[2021-05-08 12:00:28,282] INFO in werkzeug|_internal|113:  * Detected change in '/Volumes/data/xiaoboli-coding/python_code/flask_self_demo/flask_app.py', reloading
+[2021-05-08 12:00:28,322] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-08 12:00:28,588] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-08 12:00:28,593] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-08 12:00:45,795] INFO in werkzeug|_internal|113:  * Detected change in '/Volumes/data/xiaoboli-coding/python_code/flask_self_demo/flask_app.py', reloading
+[2021-05-08 12:00:45,819] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-08 12:00:46,012] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-08 12:00:46,016] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-08 12:01:10,292] INFO in werkzeug|_internal|113:  * Detected change in '/Volumes/data/xiaoboli-coding/python_code/flask_self_demo/app/config/setting.py', reloading
+[2021-05-08 12:01:10,312] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-08 12:01:10,503] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-08 12:01:10,507] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618
+[2021-05-08 12:01:32,758] INFO in werkzeug|_internal|113:  * Detected change in '/Volumes/data/xiaoboli-coding/python_code/flask_self_demo/app/config/setting.py', reloading
+[2021-05-08 12:01:32,781] INFO in werkzeug|_internal|113:  * Restarting with stat
+[2021-05-08 12:01:32,980] WARNING in werkzeug|_internal|113:  * Debugger is active!
+[2021-05-08 12:01:32,984] INFO in werkzeug|_internal|113:  * Debugger PIN: 138-221-618

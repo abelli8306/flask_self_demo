@@ -7,7 +7,6 @@ Author : xiaoboli
 Change Activity:
 -------------------------------------------------
 """
-import json
 
 __author__ = 'xiaoboli'
 
@@ -18,4 +17,5 @@ app = create_app()
 # enter function
 if __name__ == '__main__':
     # app.config['JSON_AS_ASCII'] = False
-    app.run(host=app.config['HOST'], debug=app.config['DEBUG'], port=app.config['PORT'])
+    app.run(host=app.config['HOST'],
+            debug=app.config['DEBUG'], port=app.config['PORT'])

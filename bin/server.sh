@@ -7,7 +7,7 @@ source ./init.sh
 cd "$WORKDIR/../" || exit 1
 # Global definitions
 PRO_BIN="flask_app.py"
-PRO_BINLOG="log/info.log"
+PRO_BINLOG="logs/info.log"
 PRO_INTERVAL_TIME=900
 #PRO_USER="root"
 
@@ -22,10 +22,10 @@ __getpid_for_commandname() {
     shift;
     options="$*"
 
-    tmp_pid=$( ps -o pid,ppid,args -C |grep -i "$base" | awk '
-                $1 ~ /'"$PPID"'|'"$$"'/{next;} 
+    tmp_pid=$( ps -ef |grep -i "$base" | awk '
+                $2 ~ /'"$PPID"'|'"$$"'/{next;} 
                 /awk|grep/{next;} 
-                /'"$options"'/{print $1}')
+                /'"$options"'/{print $2}')
 
     for i in $tmp_pid ; do
         [ -z "${i//[0-9]/}" ] && pid="$pid $i"

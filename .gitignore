@@ -1,13 +1,12 @@
 temp/
-*.log
-__pycache__/
 .idea/
 test/
+__pycache__/
+.vscode/
+.virualenvs/
+.venv/
 test/tmpetc/
 Pipfile
 Pipfile.lock
-.vscode/
-.virualenvs
-.venv
 __init__.pyc
 nohup.out
