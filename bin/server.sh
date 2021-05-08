@@ -1,10 +1,10 @@
 #!/bin/bash
 
 export WORKDIR=$( cd ` dirname $0 ` && pwd )
-
-cd "$WORKDIR/../" || exit 1
+cd "$WORKDIR" || exit 1
 source ./init.sh
 
+cd "$WORKDIR/../" || exit 1
 # Global definitions
 PRO_BIN="flask_app.py"
 PRO_BINLOG="log/info.log"
