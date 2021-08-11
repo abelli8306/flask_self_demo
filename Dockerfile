@@ -15,4 +15,4 @@ COPY ./build/pip.conf /root/.pip/pip.conf
 WORKDIR /data
 COPY . .
 RUN pip install -r requirement.txt
-CMD ["python3", "./flask_app.py"]
+ENTRYPOINT ["python3", "./flask_app.py"]
